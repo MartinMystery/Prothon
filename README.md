@@ -1,6 +1,6 @@
 Prothon
 =======
- Welcome to Prothon program version 1.2 !
+ Welcome to Prothon program version 1.1 !
 
 
 1) Main feature :
@@ -13,29 +13,17 @@ Class 1 :
 
 N=k*2^n+1 , with n>2 , k<2^n and
 
-k= 1 (mod 42) with n= 2,4 (mod 6)
+k= 5,19 (mod 42) with n= 0 (mod 3)
 
-k= 5 (mod 42) with n= 3 (mod 6)
+k= 13,41 (mod 42) with n= 1 (mod 3)
 
-k= 11 (mod 42) with n= 3,5 (mod 6)
+k= 17,31 (mod 42) with n= 2 (mod 3)
 
-k= 13 (mod 42) with n= 4 (mod 6)
+k= 23,37 (mod 42) with n= 0,1 (mod 3)
 
-k= 17 (mod 42) with n= 5 (mod 6)
+k= 11,25 (mod 42) with n= 0,2 (mod 3)
 
-k= 19 (mod 42) with n= 0 (mod 6)
-
-k= 23 (mod 42) with n= 1,3 (mod 6)
-
-k= 25 (mod 42) with n= 0,2 (mod 6)
-
-k= 29 (mod 42) with n= 1,5 (mod 6)
-
-k= 31 (mod 42) with n= 2 (mod 6)
-
-k= 37 (mod 42) with n= 0,4 (mod 6)
-
-k= 41 (mod 42) with n= 1 (mod 6)
+k= 1,29 (mod 42) with n= 1,2 (mod 3)
 
 Class 2 :
 
@@ -54,9 +42,7 @@ k= 5 (mod 6) and k= 7,9 (mod 10) with n= 3 (mod 4)
 
 Numbers are tested using Lucasian primality algorithms ,
 
-see Theorem 3.3. and Theorem 3.4. in
-
-http://arxiv.org/pdf/1506.03444v1.pdf
+see : http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.299.3682&rep=rep1&type=pdf
 
 
-
+Happy testing !!!
