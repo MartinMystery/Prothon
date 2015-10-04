@@ -1,6 +1,6 @@
 Prothon
 =======
- Welcome to Prothon program version 1.1 !
+ Welcome to Prothon program version 1.2 !
 
 
 1) Main feature :
