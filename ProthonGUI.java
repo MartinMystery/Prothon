@@ -145,8 +145,8 @@ System.exit(0);        // TODO add your handling code here:
                          
                          
                          
-			 
-                         
+		     if(BigInteger.valueOf(i).mod(BigInteger.valueOf(2)).equals(BigInteger.ONE)) 
+                             {   
                          if( i > 0 )
 			 {
                              if(j>2)
@@ -173,6 +173,12 @@ System.exit(0);        // TODO add your handling code here:
                            exponent.setText("");
                            
 			 }
+                             } else {
+                         JOptionPane.showMessageDialog(null, "coefficient must be odd number");
+			   coefficient.setText("");
+                           exponent.setText("");
+                     
+                     }
                          
                         
 		  
