@@ -272,12 +272,12 @@ class Polynomial {
 
 public BigInteger poly(int M , BigInteger x) {
     int N=M+1;
-        Polynomial[] T  = new Polynomial[Math.max(2, N)];   // T[i] = ith Chebyshev polynomial
-        T[0]            = new Polynomial(BigInteger.valueOf(2), 0);             // 1
-        T[1]            = new Polynomial(BigInteger.ONE, 1);             // x
-        Polynomial twox = new Polynomial(BigInteger.ONE, 1);             // x
+        Polynomial[] T  = new Polynomial[Math.max(2, N)];   
+        T[0]            = new Polynomial(BigInteger.valueOf(2), 0);             
+        T[1]            = new Polynomial(BigInteger.ONE, 1);             
+        Polynomial twox = new Polynomial(BigInteger.ONE, 1);             
 
-        // compute Chebyshev polynomials
+        
         for (int n = 2; n < N; n++) {
             Polynomial temp1 = twox.times(T[n-1]);
             T[n] = temp1.minus(T[n-2]);
