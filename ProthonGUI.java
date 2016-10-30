@@ -296,18 +296,18 @@ public String test(int k , int n) {
        
      
        
-       if((BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.ONE) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(2))) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(4)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(5))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(3)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(11))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(3)) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(13))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(4)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(17))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(19))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ZERO))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(23))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(3)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(25))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ZERO) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(2)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(29))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(31))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(2)))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(37))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ZERO) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(4)))
-              || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(41))) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE))) {
+       if((BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.ONE) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(2)) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(4))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(5)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(3))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(11)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(3)) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(13)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(4))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(17)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(19)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ZERO)))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(23)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(3))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(25)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ZERO) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(2))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(29)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(31)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(2))))
+               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(37)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ZERO) || BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(4))))
+              || (BigInteger.valueOf(k).mod(BigInteger.valueOf(42)).equals(BigInteger.valueOf(41)) && (BigInteger.valueOf(n).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE)))) {
        
        
        
@@ -324,10 +324,10 @@ public String test(int k , int n) {
        
        } else {
            
-           if((BigInteger.valueOf(k).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE) && (BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.ONE)||BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.valueOf(7)))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.ZERO)
-            ||   (BigInteger.valueOf(k).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5)) && (BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.ONE)||BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.valueOf(3)))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.ONE)
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(6)).equals(BigInteger.ONE) && (BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.valueOf(3))||BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.valueOf(9)))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.valueOf(2))
-               || (BigInteger.valueOf(k).mod(BigInteger.valueOf(6)).equals(BigInteger.valueOf(5)) && (BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.valueOf(7))||BigInteger.valueOf(k).mod(BigInteger.valueOf(10)).equals(BigInteger.valueOf(9)))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.valueOf(3))){
+           if(((BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.ONE) || BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.valueOf(7))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.ZERO))
+            ||   ((BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.valueOf(11)) || BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.valueOf(23))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.ONE))
+               || ((BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.valueOf(13)) || BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.valueOf(19))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.valueOf(2)))
+               || ((BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.valueOf(17)) || BigInteger.valueOf(k).mod(BigInteger.valueOf(30)).equals(BigInteger.valueOf(29))) && BigInteger.valueOf(n).mod(BigInteger.valueOf(4)).equals(BigInteger.valueOf(3)))){
             
        
                BigInteger s=poly(k,BigInteger.valueOf(8));
